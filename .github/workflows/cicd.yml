@@ -42,7 +42,7 @@ jobs:
         with:
           name: aab
           path: build/app/outputs/bundle/release/app-release.aab
-    release:
+  release:
     name: release to firebase distribution
     needs: build
     runs-on: ubuntu-latest
